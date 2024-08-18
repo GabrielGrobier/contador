@@ -1,0 +1,12 @@
+<ion-header>
+  <ion-button expand="block" (click)="up()" [disabled]="numero==99">Subir</ion-button>
+</ion-header>
+
+
+<ion-content>
+  <ion-text class="container">{{numero}}</ion-text>
+</ion-content>
+
+<ion-footer>
+  <ion-button expand="block" (click)="down()" [disabled]="numero==0">bajar</ion-button>
+</ion-footer>
